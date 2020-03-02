@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgStartDrawable"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_margin="@dimen/space_small_1"
+        android:tint="@color/material_white"
+        android:padding="@dimen/space_med_small"
+        android:src="@drawable/ic_error_24dp" />
+
+    <EditText
+        android:id="@+id/edtInput"
+        style="@style/TextView.Base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="@dimen/space_med"
+        android:foregroundTint="@color/material_white"
+        android:backgroundTint="@color/material_white"
+        android:textColor="@color/material_white"
+        android:paddingStart="@dimen/space_large_3"
+        android:paddingEnd="@dimen/space_large"
+        android:text="@string/kayit_ol"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="@string/agustos" />
+
+
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomButton">
+        <attr name="isWhiteText" format="boolean" />
+        <attr name="title" format="string" />
+    </declare-styleable>
+    <declare-styleable name="CustomInput">
+        <attr name="colorResId" format="integer" />
+        <attr name="image" format="integer" />
+        <attr name="hint" format="string" />
+    </declare-styleable>
+</resources>
